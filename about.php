@@ -4,7 +4,9 @@ require __DIR__ . '/resources/header.php'; ?>
 
 <main>
     <h1>About Me - The Creator</h1>
-    <p>Hi! I’m Juste Derkintyte, and I’ve recently embarked on my journey
+    <p>Hi!
+
+        I’m Juste Derkintyte, and I’ve recently embarked on my journey
         to learn web development. With a background in various service jobs
         and a career as an athlete, my interest in technology and
         programming has always been a part of my life. Growing up, I
