@@ -8,6 +8,9 @@ require __DIR__ . '/../data.php'; ?>
         <h2 class="team_name">
             <?= $team_name; ?>
         </h2>
+        <h3 class="team_league">
+            <?= "League: " . $team_info['league']; ?>
+        </h3>
         <h3 class="team_ranking">
             <?= "Ranking: " . $team_info['uefa-coefficient-ranking']; ?>
         </h3>
