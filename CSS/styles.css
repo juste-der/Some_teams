@@ -3,9 +3,21 @@
 }
 
 body {
-  background-color: #98d4ec;
+  background-color: #98d4ec98;
+  font-family: "DM Sans", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.about-page {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
 }
 .site-header {
+  background-color: #98d4ec;
   padding: 20px;
   display: flex;
   justify-content: space-between;
@@ -21,6 +33,7 @@ body {
 }
 .team-card {
   background-color: #fdf3e7;
+  color: #141456;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   padding: 20px;
@@ -36,4 +49,8 @@ body {
   width: 100px;
   height: auto;
   margin-bottom: 10px;
+}
+.team-info {
+  font-size: 0.9em;
+  color: #141456;
 }
