@@ -13,6 +13,9 @@
 <body>
     <header class="site-header">
         <nav>
+            <a href="index.php" class="logo">
+                <img src="/images/Group 1.png" alt="My logo">
+            </a>
             <a href="index.php">Home</a>
             <a href="about.php">About</a>
         </nav>

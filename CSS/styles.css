@@ -24,6 +24,15 @@ a {
   align-items: center;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
+.site-header .logo img {
+  height: 50px;
+  width: auto;
+}
+.site-header nav {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
 .teams-container {
   display: flex;
   justify-content: space-between;
