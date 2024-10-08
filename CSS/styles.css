@@ -2,6 +2,9 @@
   box-sizing: border-box;
 }
 
+body {
+  background-color: #98d4ec;
+}
 .site-header {
   padding: 20px;
   display: flex;
@@ -15,4 +18,22 @@
   flex-wrap: wrap;
   gap: 20px;
   padding: 20px;
+}
+.team-card {
+  background-color: #fdf3e7;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 200px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+.team-card:hover {
+  background-color: #fdf3e7;
+  transform: translateY(-5px);
+}
+.team-logo {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
 }

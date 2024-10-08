@@ -16,7 +16,7 @@ $ranking_order = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 17, 26, 31, 38, 'Not ranked'];
                     <h2 class="team_name">
                         <?= $team_name; ?>
                     </h2>
-                    <img src="<?= $team_info['logo']; ?>" alt="">
+                    <img src="<?= $team_info['logo']; ?>" alt="" class="team-logo">
 
                     <div class="team-info">
                         <p class="team_league"><?= "League: " . $team_info['league']; ?></p>
