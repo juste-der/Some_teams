@@ -3,7 +3,7 @@
 require __DIR__ . '/resources/header.php'; ?>
 
 <main class="about-page">
-    <h1>About Me</h1>
+    <h1 class="main-heading">About Me</h1>
     <p><strong>Hi!</strong>
         <br><br>
         I’m Juste Derkintyte, and I’ve recently embarked on my journey

@@ -6,7 +6,7 @@ require __DIR__ . '/resources/header.php';
 ?>
 
 <main>
-    <h1>The Football Team Page</h1>
+    <h1 class="main-heading">The Football Team Page</h1>
     <?php require __DIR__ . '/resources/team-list.php'; ?>
 </main>
 
